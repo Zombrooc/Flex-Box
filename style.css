@@ -1,0 +1,43 @@
+.container {
+  
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+
+  /*align-items, justify-content, align-self, align-content: os mesmo valores*/
+  
+
+  /*
+    Quando o flex-direction está como "row" ou não é definido
+    justify-content Alinhar os meus elemento de maneira horizontal
+    align-items: Alinhas os meus elementos de maneir vertical
+  */
+
+  /*
+    Quando o flex-direction está como "column"
+    justify-content Alinhar os meus elemento de maneira vertical-align
+    align-items: Alinhas os meus elementos de maneir horizontal
+  
+  */
+
+  /*flex-flow uni as propriedades de flex-direction e também flex-wrap*/
+  /*Ex: flex-flow: row wrap;*/
+
+  /*flex-wrap determina a quebra de linha do flex-box*/
+/*  flex-wrap: wrap;*/
+
+  /*flex-direction altera a direção dos meus elementos do flex-box ( Horizontal ou Vertical)*/
+}
+
+.container .titulo1 {
+  order: 2
+}
+
+.container .titulo2 {
+  order: 3;
+}
+
+.container .titulo3 {
+  order: 1;
+}
